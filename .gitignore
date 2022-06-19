@@ -2,11 +2,12 @@ backup
 *.DS_*
 *.backup
 last_rsync.log
+venv*
 cache
 node_modules
 npm-debug.log
 db.sqlite3
-geckodriver.log
+*driver.log
 .idea/
 *tags
 # .tags
@@ -18,6 +19,6 @@ __pycache__/
 *.db
 *.vim
 logs/
-scripts/fetch_test.py
-scripts/populate_test.py
+scripts/
+scripts/
 .idea/
