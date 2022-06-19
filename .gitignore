@@ -1,0 +1,23 @@
+backup
+*.DS_*
+*.backup
+last_rsync.log
+cache
+node_modules
+npm-debug.log
+db.sqlite3
+geckodriver.log
+.idea/
+*tags
+# .tags
+.envrc
+.env
+__pycache__/
+*.pyc
+*.pid
+*.db
+*.vim
+logs/
+scripts/fetch_test.py
+scripts/populate_test.py
+.idea/
