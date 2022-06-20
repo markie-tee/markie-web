@@ -3,10 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, intitial-scale=1">
-  
   <title>{{ title }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
-<body>
-  
+<body style="color:#333333;"> 
+  <div class="navbar">
+    <div class="container is-fluid">
+        <div class="notification is-primary">
+          This is the homepage of <strong>Markie Tee</strong>
+        </div>
+    </div>
+  </div>
+  <div class="columns is-mobile">
+    <div class="column" id="column-1">
+      <div class="container is-fluid" style=" text:blue;" >
+      <p class="bd-notification is-info">First nested column</p>
+      </div>
+    </div>
+    <div class="column" id="column-2">
+      <p class="bd-notification is-info">Second nested column</p>
+    </div>
+  </div>
 </body>
 </html>
