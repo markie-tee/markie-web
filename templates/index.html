@@ -5,24 +5,34 @@
   <meta name="viewport" content="width=device-width, intitial-scale=1">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="static/bulma/css/bulma.min.css">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body style="color:#333333">
+
+
   <div class="navbar">
     <div class="container is-fluid">
-        <div class="notification is-primary is-centered">
+        <div class="notification is-primary">
           <div class="content has-text-centered is-size-5">This is the homepage of <strong>Tom Thumb</strong></h1>
         </div>
     </div>
   </div>
-  <div class="columns is-mobile">
-    <div class="column" id="column-1">
-      <div class="container is-fluid" style=" text:blue;" >
-      <p class="bd-notification is-info">First nested column</p>
+
+  <div class="columns is-mobile is-multiline is-centered">
+{# -------------------------------------------  #}
+    <div class="column is-two-thirds" id="column-1">
+      <div class="container has-text-centered is-fluid" style="" >
+        <p class="notification is-link">First nested column</p>
       </div>
     </div>
-    <div class="column" id="column-2">
-      <p class="bd-notification is-info">Second nested column</p>
-    </div>
+
+    {# <div class="column is-one-third" id="column-2"> #}
+      {# <div class="container has-text-centered" style="" > #}
+        {# <p class="notification is-warning">Second nested column</p> #}
+      {# </div> #}
+    {# </div> #}
+
+{# -------------------------------------------  #}
   </div>
 </body>
 </html>
